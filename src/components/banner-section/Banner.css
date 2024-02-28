@@ -26,6 +26,13 @@
     background: linear-gradient(90deg, #0E5A65 -9.26%, rgba(32, 59, 109, 0.00) 106.72%);
 }
 
+.launch .launch-project:hover {
+    padding: 14px 30px 14px 25px;
+    gap:14px;
+    transition: all 1s linear;
+    cursor: pointer;
+}
+
 .banner-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -152,7 +159,7 @@
     position: absolute;
     bottom: 80px;
     left: -30px;
-    animation: square-rotate 3s infinite linear;
+    animation: square-rotate 7s infinite linear;
 }
 
 .bc-2 > .android {
@@ -205,6 +212,25 @@
     
 }
 
+.banner-tech {
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    /* line-height: 70px;  */
+    letter-spacing: 4.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+
+}
+
+.banner-tech p{
+    color: #EAFCFF;
+}
+
+
 
 @keyframes rotate-sphere {
     0% {
@@ -225,13 +251,13 @@
 
 @keyframes scale {
     0% {
-        transform: scale(1, 1)
+        transform: scale(0.7, 0.7)
     }
     50% {
         transform: scale(1.2, 1.2)
     }
     100% {
-        transform: scale(1, 1)
+        transform: scale(0.7, 0.7)
     }
 }
 

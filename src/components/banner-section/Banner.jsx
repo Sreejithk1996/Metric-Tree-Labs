@@ -10,6 +10,7 @@ import windows from '../../assets/small_image/windows.svg'
 import figma from '../../assets/small_image/figma.svg'
 import react from '../../assets/small_image/react.svg'
 import ios from '../../assets/small_image/ios.svg'
+import techicon from '../../assets/small_image/list-icon.svg'
 
 
 function Banner() {
@@ -56,8 +57,17 @@ function Banner() {
           <img className='figma ' src={figma } alt='figma '></img>
           <img className='react' src={react} alt='react'></img>
           <img className='ios' src={ios} alt='ios'></img>
-
         </div>
+      </div>
+
+      <div className='banner-tech'>
+        <p className='tech1'>IOS</p>
+        <img src={techicon} alt='icon'></img>
+        <p className='tech1'>ANDROID</p>
+        <img src={techicon} alt='icon'></img>
+        <p className='tech1'>Flutter</p>
+        <img src={techicon} alt='icon'></img>
+        <p className='tech1'>REACT NATIVE</p>
       </div>
       
     </section>
