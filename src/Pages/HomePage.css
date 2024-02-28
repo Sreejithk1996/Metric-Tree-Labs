@@ -1,10 +1,14 @@
 .main-body {
     background-image: url(../assets/LandingPage.png);
-    background-size: 100% 100%;
-    background-position: cover;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+   
+}
+
+.main-sub-body {
+    max-width: 1536px;
     margin: auto;
     padding: 20px 50px;
-
-
 }

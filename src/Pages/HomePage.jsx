@@ -5,8 +5,9 @@ import Banner from '../components/banner-section/Banner';
 function HomePage() {
   return (
     <div className='main-body'>
-      <Banner />
-      
+      <div className='main-sub-body'>
+        <Banner />
+      </div>
     </div>
   )
 }

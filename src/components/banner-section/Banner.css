@@ -1,6 +1,10 @@
 .banner-section {
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
 }
 
 .header-section {
@@ -10,6 +14,7 @@
 }
 
 .launch .launch-project {
+    font-family: "Open Sans", sans-serif;
     color: white;
     display: inline-flex;
     padding: 14px 22px 14px 25px;
@@ -19,5 +24,214 @@
     border-radius: 30px;
     border: 1px solid rgba(214, 214, 214, 0.33);
     background: linear-gradient(90deg, #0E5A65 -9.26%, rgba(32, 59, 109, 0.00) 106.72%);
+}
+
+.banner-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "bc1 bc2";
+    align-items: center;
+    gap: 100px;
+}
+
+.banner-title {
+    font-family: "Roboto Slab", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px; 
+    color: white;
+}
+
+.banner-title > .color {
+    color: #038A9E;
+}
+
+.banner-title-content {
+    color: #EAFCFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 38px;
+}
+
+.banner-button button{
+    font-family: "Open Sans", sans-serif;
+    color: #EAFCFF;
+    display: flex;
+    padding: 14px 22px 14px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(214, 214, 214, 0.33);
+    background: linear-gradient(90deg, #0E5A65 -9.26%, rgba(32, 59, 109, 0.00) 106.72%);
+}
+
+.bc-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* .bc-2 > .round {
+    flex-shrink: 1;
+
+} */
+
+.bc-2  {
+    position: relative;
+}
+
+
+.bc-2 .round img {
+
+    animation-name: rotate-sphere;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+.bc-2 .banner-phone > .phone1{
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border-radius: 20px;
+}
+
+.bc-2 .banner-phone > .phone2{
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 90px;
+    left: 165px;
+    border-radius: 20px;
+}
+
+.bc-2 > .explore {
+    font-family: "Open Sans", sans-serif;
+    color: #EAFCFF;
+    display: flex;
+    width: 146px;
+    height: 56px;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 59px;
+    border-radius: 15px;
+    border: 0.9px solid rgba(255, 255, 255, 0.50);
+    background: linear-gradient(69deg, rgba(255, 255, 255, 0.20) 10.42%, rgba(255, 255, 255, 0.04) 77.11%);
+    box-shadow: 0px 0.5px 15px 0px rgba(69, 42, 124, 0.10);
+    backdrop-filter: blur(17px);
+    position: absolute;
+    top: 145px;
+    left: 275px;
+}
+
+.bc-2 > .started {
+    font-family: "Open Sans", sans-serif;
+    color: #EAFCFF;
+    display: flex;
+    width: 145px;
+    height: 37px;
+    padding: 9px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.9px;
+    border: 0;
+    background: linear-gradient(243deg, #036A89 -18.94%, #161F36 88.53%);
+    box-shadow: -4.937px 9.381px 9.875px 0px rgba(43, 9, 120, 0.35);
+    position: absolute;
+    bottom: 110px;
+    left: 275px;
+
+}
+ 
+.bc-2 > .sphere {
+    position: absolute;
+    bottom: 80px;
+    left: -30px;
+    animation: square-rotate 3s infinite linear;
+}
+
+.bc-2 > .android {
+    position: absolute;
+    bottom: 10%;
+    right: 160px;
+    animation: scale 3s ease-out infinite;
+    
+}
+
+/* .bc-2 > .android:hover {
+    
+} */
+
+.bc-2 > .windows {
+    position: absolute;
+    bottom: 25%;
+    right: 100px;
+    animation: scale 3s ease-out  infinite;
+    animation-delay: 10s;
+}
+
+/* .bc-2 > .windows:hover {
+    
+} */
+
+.bc-2 > .figma {
+    position: absolute;
+    bottom: 45%;
+    right: 80px;
+    animation: scale 3s ease-out 6s infinite;
+    
+}
+
+.bc-2 > .react {
+    position: absolute;
+    bottom: 65%;
+    right: 100px;
+    animation: scale 3s ease-out infinite;
+    animation-delay: 10s;
+    
+    
+}
+
+.bc-2 > .ios {
+    position: absolute;
+    bottom: 80%;
+    right: 160px;
+    animation: scale 3s ease-out 12s infinite;
+    
+}
+
+
+@keyframes rotate-sphere {
+    0% {
+        transform: rotate(0) translateY(10px) rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg) translateY(10px) rotate(-360deg);
+    }
+
+}
+
+@keyframes square-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1, 1)
+    }
+    50% {
+        transform: scale(1.2, 1.2)
+    }
+    100% {
+        transform: scale(1, 1)
+    }
 }
 
