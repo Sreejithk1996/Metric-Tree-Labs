@@ -69,6 +69,10 @@ function Banner() {
         <img src={techicon} alt='icon'></img>
         <p className='tech1'>REACT NATIVE</p>
       </div>
+
+      <div className='banner-footer'>
+        <p>Creating a niche-specific, target-oriented, extensively featured, and adaptive mobile application for your business is critical for success and hyper-growth. We develop top-quality mobile app solutions that have a unique combination of quality coding and clean system architecture. Following the iterative development approach and ethical coding practices, we provide apps on time with the scope for enhancement as the app scales.</p>
+      </div>
       
     </section>
   )

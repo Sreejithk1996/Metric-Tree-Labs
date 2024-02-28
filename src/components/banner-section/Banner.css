@@ -1,6 +1,6 @@
 .banner-section {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -29,7 +29,7 @@
 .launch .launch-project:hover {
     padding: 14px 30px 14px 25px;
     gap:14px;
-    transition: all 1s linear;
+    transition: all 300ms linear;
     cursor: pointer;
 }
 
@@ -228,6 +228,17 @@
 
 .banner-tech p{
     color: #EAFCFF;
+}
+
+.banner-footer p{
+    font-family: "Raleway", sans-serif;
+    color: #EAFCFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px 100px;
 }
 
 
