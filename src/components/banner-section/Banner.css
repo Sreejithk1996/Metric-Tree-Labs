@@ -2,3 +2,22 @@
     width: 100%;
     height: 100vh;
 }
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.launch .launch-project {
+    color: white;
+    display: inline-flex;
+    padding: 14px 22px 14px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(214, 214, 214, 0.33);
+    background: linear-gradient(90deg, #0E5A65 -9.26%, rgba(32, 59, 109, 0.00) 106.72%);
+}
+
