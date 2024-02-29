@@ -466,7 +466,7 @@
     }
 
     .bc-2 > .banner-phone > .phone1, .bc-2 > .banner-phone > .phone2 {
-        width: 130px;
+        width: 140px;
     }
 
     .bc-2 .banner-phone > .phone1{
@@ -480,8 +480,8 @@
     }
     
     .bc-2 > .explore {
-        width: 100px;
-        height: 38px;
+        width: 110px;
+        height: 42px;
         padding: 18px;
         top: 90px;
         left: 175px;
@@ -494,8 +494,8 @@
     }
     
     .bc-2 > .started {
-        width: 100px;
-        height: 35px;
+        width: 110px;
+        height: 40px;
         padding: 9px 16px;
         border: 0;
         bottom: 80px;
@@ -508,7 +508,7 @@
     }
 
     .bc-2 > .sphere {
-        bottom: 75px;
+        bottom: 35px;
         left: -20px;
         width: 40px;
     }
