@@ -43,7 +43,7 @@ function Banner() {
         </div>
         <div className='bc-2'>
           <div className='round'>
-            <img src={sphere} alt="img" />
+            <img className='sphereball' src={sphere} alt="img" />
           </div>
           <div className='banner-phone'>
             <img className='phone1' src={phone1} alt='phoneimg'></img>
@@ -73,8 +73,11 @@ function Banner() {
       <div className='banner-footer'>
         <p>Creating a niche-specific, target-oriented, extensively featured, and adaptive mobile application for your business is critical for success and hyper-growth. We develop top-quality mobile app solutions that have a unique combination of quality coding and clean system architecture. Following the iterative development approach and ethical coding practices, we provide apps on time with the scope for enhancement as the app scales.</p>
       </div>
+
       
     </section>
+
+    
   )
 }
 
