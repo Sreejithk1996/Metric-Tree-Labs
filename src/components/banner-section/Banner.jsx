@@ -65,7 +65,7 @@ function Banner() {
         <img src={techicon} alt='icon'></img>
         <p className='tech1'>ANDROID</p>
         <img src={techicon} alt='icon'></img>
-        <p className='tech1'>Flutter</p>
+        <p className='tech1'>FLUTTER</p>
         <img src={techicon} alt='icon'></img>
         <p className='tech1'>REACT NATIVE</p>
       </div>
