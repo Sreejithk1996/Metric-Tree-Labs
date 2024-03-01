@@ -11,6 +11,9 @@
     max-width: 1536px;
     margin: auto;
     padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 @media only screen and (min-width:380px) and (max-width:640px) {
