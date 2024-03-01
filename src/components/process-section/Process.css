@@ -10,32 +10,37 @@
     align-items: center;
 }
 
-.project-1 > .clinic img, .bim img, .project-2 > .sit img, .mag img {
-    width: 350px;
-    transition: all 200ms linear;
-    border-radius: 16px;
+.clinic, .bim, .sit, .mag {
+ width: 350px;
+ transition: all 200ms linear;
 }
 
-.project-2 > .yal img {
+.yal {
     width: 550px;
-    border-radius: 16px;
     transition: all 200ms linear;
 }
 
-.project-1 > .clinic img:hover, .bim img:hover, .project-2 > .sit img:hover, .yal img:hover, .mag img:hover {
+.clinic:hover, .bim:hover, .sit:hover, .yal:hover, .mag:hover {
     cursor: pointer;
     transform: scale(1.1,1.1);
     transition: all 200ms linear;
     filter: drop-shadow(0 0.5rem 0.55rem rgb(0, 0, 0));
     filter: contrast(120%);
+    opacity: 1;
 }
 
 
+.project-1 > .clinic img, .bim img, .project-2 > .sit img, .mag img {
+    width: 100%;
+    transition: all 200ms linear;
+    border-radius: 16px;
+}
 
-/* .Project-section:hover > .project-1:not(:hover){
-    filter: blur(10x);
-    transform: scale(0.9,0.9);
-} */
+.project-2 > .yal img {
+    width: 100%;
+    border-radius: 16px;
+    transition: all 200ms linear;
+}
 
 .project-1 p {
     color: #FFF;
@@ -59,3 +64,167 @@
     font-weight: 700;
     line-height: 80px;
 }
+
+.project-1 > .clinic  , .bim , .project-2 > .sit , .yal , .mag  {
+    position: relative;
+}
+
+.details-1, .details-2, .details-3, .details-5  {
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    bottom: 5px;
+    opacity: 0;
+    transition: all 200ms linear; 
+}
+
+.details-4 {
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    bottom: 5px;
+    left: 0; 
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.details-2, .details-3, .details-5 {
+    left: 0px;
+}
+
+.clinic:hover .details-1, .bim:hover .details-2, .sit:hover .details-3, .yal:hover .details-4, .mag:hover .details-5{
+    opacity: 1;
+}
+
+
+.details p {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.details h6 {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+} 
+
+.yal-style p {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.yal-style h6 {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .clinic > img:hover .details-1, .bim > img:hover .details-2, .sit:hover .details-3, .mag:hover .details-5 {
+    transition: all 50ms linear;
+    bottom: -5px;
+    opacity: 1;
+} */
+
+
+/*.clinic:hover .details, .bim:hover .details, .sit:hover .details, .mag:hover .details {
+    cursor: pointer;
+    transition: all 200ms linear;
+    opacity: 1;
+    height: 65px;
+    bottom: -5px;
+}
+
+.details-2 {
+    background-color: rgba(0, 0, 0, 0.373);
+    width: 550px;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details p {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.details h6 {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+} */
+
+
+
