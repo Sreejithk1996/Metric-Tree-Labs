@@ -278,7 +278,7 @@
     
     .launch .launch-project{
         padding: 10px 18px 10px 21px;
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .banner-content {
@@ -304,7 +304,7 @@
     }
 
     .banner-button button {
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 18px 10px 21px;
     }
 
@@ -399,11 +399,12 @@
     .banner-tech {
         font-size: 8px;
         gap: 5px;
+        line-height: 20px;
     }
     
     .banner-footer p{
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 24px;
         text-align: justify ;
         padding: 0;
     }
@@ -421,11 +422,13 @@
     }
 }
 
+/* ---------------------------------------------------Media Query (min-width: 641px & max-width: 768px) --------------------------------- */
+
 @media only screen and (min-width:641px) and (max-width:768px) {
 
     .launch .launch-project{
         padding: 14px 20px 14px 20px;
-        font-size: 12px;
+        font-size: 14px;
        
     }
 
@@ -442,17 +445,17 @@
     }
 
     .banner-title {
-        font-size: 24px;
+        font-size: 28px;
         line-height: 35px;
     }
 
     .banner-title-content {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 28px;
     }
 
     .banner-button button {
-        font-size: 12px;
+        font-size: 14px;
         padding: 14px 20px 14px 20px;
     }
 
