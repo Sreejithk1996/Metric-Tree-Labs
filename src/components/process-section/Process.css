@@ -312,6 +312,167 @@
     } 
 }
 
+/* ---------------------------------------------------Media Query (min-width: 769px & max-width: 992px) --------------------------------- */
+
+
+@media only screen and (min-width: 769px) and (max-width:992px) {
+    .project-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .project-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .clinic {order:2}
+
+    .ourprojects {order:1}
+
+    .bim {order: 3;}
+    
+    .project-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .clinic, .bim, .sit, .mag, .yal {
+        width: 100%;
+    }
+    
+    .clinic:hover:hover, .bim:hover:hover, .sit:hover, .yal:hover, .mag:hover {
+        transform: scale(1,1);
+        filter: none;
+        filter: none;
+        opacity: 1;
+    }
+    
+    .project-1 > .clinic img, .bim img, .project-2 > .sit img, .mag img {
+        transition: none;
+    }
+    
+    .project-2 > .yal img {
+        transition: none
+    }
+    
+    .project-1 p, .ourprojects > label {
+        font-size: 44px;
+    }
+    
+    .details-1, .details-2, .details-3, .details-5  {
+        opacity: 1;
+        transition: none; 
+        height: 65px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+    
+    .details-4 {
+        height: 65px;
+        opacity: 1;
+        transition: none;
+    }
+    
+    .details p {
+        font-size: 18px;
+    }
+    
+    .details h6 {
+        font-size: 18px;
+    } 
+    
+    .yal-style p {
+        font-size: 18px;
+    }
+    
+    .yal-style h6 {
+        font-size: 18px;
+    } 
+}
+
+/* ---------------------------------------------------Media Query (min-width: 769px & max-width: 992px) --------------------------------- */
+
+
+@media only screen and (min-width: 993px) and (max-width:1200px) {
+    .project-section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .project-1 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .project-2 {
+        display: flex;
+        gap: 30px;
+    }
+    
+    .clinic, .bim, .sit, .mag {
+        width: 300px;
+    }
+
+    .yal {
+        width: 450px;
+    }
+    
+    .clinic:hover:hover, .bim:hover:hover, .sit:hover, .yal:hover, .mag:hover {
+        transform: scale(1,1);
+        filter: none;
+        filter: none;
+        opacity: 1;
+    }
+    
+    .project-1 > .clinic img, .bim img, .project-2 > .sit img, .mag img {
+        transition: none;
+    }
+    
+    .project-2 > .yal img {
+        transition: none
+    }
+    
+    .project-1 p, .ourprojects > label {
+        font-size: 44px;
+    }
+    
+    .details-1, .details-2, .details-3, .details-5  {
+        opacity: 1;
+        transition: none; 
+        height: 65px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .details-4 {
+        height: 55px;
+        opacity: 1;
+        transition: none;
+    }
+    
+    .details p {
+        font-size: 12px;
+    }
+    
+    .details h6 {
+        font-size: 12px;
+    } 
+    
+    .yal-style p {
+        font-size: 14px;
+    }
+    
+    .yal-style h6 {
+        font-size: 14px;
+    } 
+}
+
+
 
 
 
