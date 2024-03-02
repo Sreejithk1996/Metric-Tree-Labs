@@ -2,6 +2,7 @@ import React from 'react'
 import './HomePage.css';
 import Banner from '../components/banner-section/Banner';
 import Process from '../components/process-section/Process';
+import WhyMtl from '../components/why-mtl-section/WhyMtl';
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <div className='main-sub-body'>
         <Banner />
         <Process />
+        <WhyMtl />
       </div>
     </div>
   )
