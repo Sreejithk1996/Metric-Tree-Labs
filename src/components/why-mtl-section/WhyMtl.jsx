@@ -1,9 +1,9 @@
 import React from 'react'
 import './WhyMtl.css'
 import whymtlimage from '../../assets/large_image/Why Choose MTL_.png'
-import content1 from '../../assets/large_image/whymtl 1.png'
-import content2 from '../../assets/large_image/whymtl 2.png'
 import light from '../../assets/small_image/Vector.svg'
+import icon1 from '../../assets/small_image/icon1.svg'
+import icon2 from '../../assets/small_image/icon2.svg'
 
 function WhyMtl() {
   return (
@@ -39,6 +39,7 @@ function WhyMtl() {
                         <p>Timely development</p>
                     </div>  
                 </div>
+                <img className='icon' src={icon1} alt="icon" />
             </div>
             <div className='whymtl-content-2'>
                 <div className='list-content'>
@@ -59,8 +60,8 @@ function WhyMtl() {
                         <p>Enhancements as necessary</p>
                     </div>  
                 </div>
+                <img className='icon' src={icon2} alt="icon" />
             </div>
-
         </div>
     </section>
   )

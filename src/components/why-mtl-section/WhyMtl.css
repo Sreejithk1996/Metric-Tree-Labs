@@ -65,8 +65,8 @@
 
 .whymtl-content-1:hover, .whymtl-content-2:hover {
     background: linear-gradient(-93deg, rgba(255, 255, 255, 0.18) 2.79%, rgba(255, 255, 255, 0.18) 2.79%, rgba(255, 255, 255, 0.00) 96.26%);
-    /* transform: skewX(-0.02turn); */
-    transform: perspective(700px) rotateY('-15deg') rotateX('-5deg');
+    transform: skewX(-0.005turn);
+    /* transform: perspective(700px) rotateY('-15deg') rotateX('-5deg'); */
     transition: all 300ms linear;
 }
 
@@ -74,12 +74,24 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    transform: ;
 }
 
 .whymtl-content .list {
     display: flex;
     gap: 15px;
+}
+
+.whymtl-content .icon {
+    position: absolute;
+    top: -30px;
+    left: 60px;
+    animation: rotate-icon 10s linear infinite;
+}
+
+@keyframes rotate-icon {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
