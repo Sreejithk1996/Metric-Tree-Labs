@@ -28,7 +28,7 @@
 }
 
 .whymtl-title-content {
-    width: 410px;
+    width: 510px;
     font-family: "Raleway";
     font-size: 16px;
     font-style: normal;
@@ -36,9 +36,10 @@
     line-height: 30px;
 }
 
-.whymtl-image {
+.whymtl-image img {
     box-shadow: 0px 10px 113.6px 0px rgba(115, 198, 210, 0.29);
     border-radius: 30px;
+    /* width: 500px; */
 }
 
 .whymtl-content {
@@ -281,10 +282,6 @@
         font-size: 16px;
     }
     
-    .whymtl-content-1:hover, .whymtl-content-2:hover {
-        background: linear-gradient(93deg, rgba(255, 255, 255, 0.18) 2.79%, rgba(255, 255, 255, 0.18) 2.79%, rgba(255, 255, 255, 0.00) 96.26%);
-        transform: skewX(0);
-    }
 }
 
 

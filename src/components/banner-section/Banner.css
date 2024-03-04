@@ -1,6 +1,6 @@
 .banner-section {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -94,6 +94,12 @@
     position: relative;
 }
 
+.bc-2 .round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bc-2 .round img {
     animation-name: rotate-sphere;
     animation-iteration-count: infinite;
@@ -107,6 +113,8 @@
     top: 60px;
     left: 0;
     border-radius: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .bc-2 .banner-phone > .phone2{
@@ -554,6 +562,306 @@
     
     .banner-footer p{
         font-size: 16px;
+        line-height: 28px;
+        text-align: center ;
+        padding: 0;
+    }
+
+    @keyframes scale {
+        0% {
+            transform: scale(0.9, 0.9)
+        }
+        50% {
+            transform: scale(1.2, 1.2)
+        }
+        100% {
+            transform: scale(0.9, 0.9)
+        }
+    }
+}
+
+/* ---------------------------------------------------Media Query (min-width: 769px & max-width: 992px) --------------------------------- */
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+
+    .launch .launch-project{
+        padding: 14px 20px 14px 20px;
+        font-size: 14px;
+       
+    }
+
+    .logo img {
+        width: 82px;
+        height: 73px;
+   }
+    
+    .banner-content {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto ;
+        grid-template-areas: "bc1 bc1";
+        gap: 40px;
+    }
+
+    .banner-title {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .banner-title-content {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .banner-button button {
+        font-size: 14px;
+        padding: 14px 20px 14px 20px;
+    }
+
+    .bc-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bc-2 > .round > .sphereball  {
+        width: 370px;
+    }
+
+    .bc-2 > .banner-phone > .phone1, .bc-2 > .banner-phone > .phone2 {
+        width: 140px;
+    }
+
+    .bc-2 .banner-phone > .phone1{
+        top: 20px;
+        left: 0;
+    }
+    
+    .bc-2 .banner-phone > .phone2{
+        top: 50px;
+        left: 95px;
+    }
+    
+    .bc-2 > .explore {
+        width: 110px;
+        height: 42px;
+        padding: 18px;
+        top: 90px;
+        left: 175px;
+        border: 0;
+        font-size: 10px;
+    }
+    
+    .bc-2 > .explore:hover{
+        width: 140px;
+    }
+    
+    .bc-2 > .started {
+        width: 110px;
+        height: 40px;
+        padding: 9px 16px;
+        border: 0;
+        bottom: 80px;
+        left: 170px;
+        font-size: 10px;
+    }
+    
+    .bc-2 > .started:hover {
+        width: 140px;
+    }
+
+    .bc-2 > .sphere {
+        bottom: 35px;
+        left: -20px;
+        width: 40px;
+    }
+    
+    .bc-2 > .android {
+        bottom: 10%;
+        right: 40px;
+        width: 40px;
+    }
+    
+    .bc-2 > .windows {
+        bottom: 25%;
+        right: 0px;
+        width: 40px;
+    }
+    
+    .bc-2 > .figma {
+        bottom: 45%;
+        right: -20px;
+        width: 40px;
+        
+    }
+    
+    .bc-2 > .react {
+        bottom: 65%;
+        right: 0px;
+        width: 40px;
+    }
+    
+    .bc-2 > .ios {
+        bottom: 80%;
+        right: 40px;
+        width: 40px;
+    }
+    
+    .banner-tech {
+        font-size: 14px;
+        gap: 15px;
+    }
+    
+    .banner-footer p{
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center ;
+        padding: 0;
+    }
+
+    @keyframes scale {
+        0% {
+            transform: scale(0.9, 0.9)
+        }
+        50% {
+            transform: scale(1.2, 1.2)
+        }
+        100% {
+            transform: scale(0.9, 0.9)
+        }
+    }
+}
+
+
+/* ---------------------------------------------------Media Query (min-width: 993px & max-width: 1280px) --------------------------------- */
+
+@media only screen and (min-width:993px) and (max-width:1280px) {
+
+    .launch .launch-project{
+        padding: 14px 22px 14px 22px;
+        font-size: 16px;
+       
+    }
+
+    .logo img {
+        width: 82px;
+        height: 73px;
+   }
+    
+    .banner-content {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto ;
+        grid-template-areas: "bc1 bc1";
+        gap: 90px;
+    }
+
+    .banner-title {
+        font-size: 44px;
+        line-height: 45px;
+    }
+
+    .banner-title-content {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .banner-button button {
+        padding: 14px 22px 14px 22px;
+        font-size: 16px;
+    }
+
+    .bc-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bc-2 > .round > .sphereball  {
+        width: 400px;
+    }
+
+    .bc-2 > .banner-phone > .phone1, .bc-2 > .banner-phone > .phone2 {
+        width: 160px;
+    }
+
+    .bc-2 .banner-phone > .phone1{
+        top: 20px;
+        left: 0;
+    }
+    
+    .bc-2 .banner-phone > .phone2{
+        top: 50px;
+        left: 130px;
+    }
+    
+    .bc-2 > .explore {
+        width: 120px;
+        height: 38px;
+        padding: 18px;
+        top: 90px;
+        left: 215px;
+        border: 0;
+        font-size: 12px;
+    }
+    
+    .bc-2 > .explore:hover{
+        width: 140px;
+    }
+    
+    .bc-2 > .started {
+        width: 110px;
+        height: 35px;
+        padding: 9px 16px;
+        border: 0;
+        bottom: 50px;
+        left: 215px;
+        font-size: 12px;
+    }
+    
+    .bc-2 > .started:hover {
+        width: 140px;
+    }
+
+    .bc-2 > .sphere {
+        bottom: 30px;
+        left: -20px;
+        width: 40px;
+    }
+    
+    .bc-2 > .android {
+        bottom: 5%;
+        right: 85px;
+        width: 50px;
+    }
+    
+    .bc-2 > .windows {
+        bottom: 22%;
+        right: 30px;
+        width: 50px;
+    }
+    
+    .bc-2 > .figma {
+        bottom: 45%;
+        right: 15px;
+        width: 50px; 
+    }
+    
+    .bc-2 > .react {
+        bottom: 66%;
+        right: 30px;
+        width: 50px;
+    }
+    
+    .bc-2 > .ios {
+        bottom: 80%;
+        right: 85px;
+        width: 50px;
+    }
+    
+    .banner-tech {
+        font-size: 14px;
+        gap: 18px;
+    }
+    
+    .banner-footer p{
+        font-size: 18px;
         line-height: 28px;
         text-align: center ;
         padding: 0;

@@ -8,12 +8,12 @@
 }
 
 .main-sub-body {
-    max-width: 1536px;
+    max-width: 1850px;
     margin: auto;
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 70px;
 }
 
 @media only screen and (min-width:380px) and (max-width:640px) {

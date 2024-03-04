@@ -1,7 +1,7 @@
 import React from 'react'
 import './HomePage.css';
 import Banner from '../components/banner-section/Banner';
-import Process from '../components/process-section/Process';
+import Projects from '../components/projects-section/Projects'
 import WhyMtl from '../components/why-mtl-section/WhyMtl';
 
 function HomePage() {
@@ -9,7 +9,7 @@ function HomePage() {
     <div className='main-body'>
       <div className='main-sub-body'>
         <Banner />
-        <Process />
+        <Projects />
         <WhyMtl />
       </div>
     </div>
