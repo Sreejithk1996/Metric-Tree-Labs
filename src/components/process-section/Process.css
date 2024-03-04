@@ -1,10 +1,15 @@
-.process-section {
+.process-content {
     display: flex;
+    justify-content: space-evenly;
+
 }
 
 .pc-1 {
     display: flex;
     flex-direction: column;
+    width: 435px;
+    justify-content: center;
+    gap: 30px;
 }
 
  .pc-1 .process-title {
@@ -44,4 +49,23 @@
     border-radius: 30px;
     border: 1px solid rgba(214, 214, 214, 0.33);
     background: linear-gradient(90deg, #0E5A65 -9.26%, rgba(32, 59, 109, 0.00) 106.72%);
+}
+
+.pc-2 {
+    display: flex;
+    
+}
+
+.pc-2 .mobile-process-list {
+    width: 355px;
+    height: 598px;
+    border-radius: 19px;
+    border: 1.4px solid rgba(255, 255, 255, 0.50);
+    background: linear-gradient(86deg, rgba(255, 255, 255, 0.20) 11.14%, rgba(255, 255, 255, 0.04) 113.29%);
+    box-shadow: 0px 0.6px 15px 0px rgba(69, 42, 124, 0.10);
+    backdrop-filter: blur(17px);
+}
+
+.pc-2 .mobile-list {
+    list-style-type: none;
 }
