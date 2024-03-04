@@ -1,0 +1,47 @@
+.process-section {
+    display: flex;
+}
+
+.pc-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+ .pc-1 .process-title {
+    color: #FFF;
+    font-family: "Roboto Slab";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 58px;
+}
+
+.pc-1 .process-title > label {
+    font-weight: 700;
+    color: #038A9E;
+}
+
+.pc-1 .process-title-content {
+    color: #EAFCFF;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px
+}
+
+.pc-1 button {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    padding: 14px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(214, 214, 214, 0.33);
+    background: linear-gradient(90deg, #0E5A65 -9.26%, rgba(32, 59, 109, 0.00) 106.72%);
+}
