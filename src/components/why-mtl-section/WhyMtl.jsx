@@ -1,6 +1,6 @@
 import React from 'react'
 import './WhyMtl.css'
-import whymtlimage from '../../assets/large_image/Why Choose MTL_.png'
+import whymtlimage from '../../assets/large_image/choose-bg.svg'
 import light from '../../assets/small_image/Vector.svg'
 import icon1 from '../../assets/small_image/icon1.svg'
 import icon2 from '../../assets/small_image/icon2.svg'
