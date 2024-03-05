@@ -2,6 +2,7 @@ import React from 'react'
 import './process.css'
 import mobiletop from '../../assets/small_image/mob-bg-top.svg'
 import homebar from '../../assets/small_image/True.svg'
+import sphere from '../../assets/large_image/process-sphere.svg'
 
 function Process() {
   return (
@@ -37,6 +38,7 @@ function Process() {
                         <img src={homebar} alt="homebar" />
                     </div>
                 </div>
+                <img className='sphereball' src={sphere} alt="img" />
             </div>
         </div>  
    </section>

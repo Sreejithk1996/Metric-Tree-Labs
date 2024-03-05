@@ -4,6 +4,8 @@ import Banner from '../components/banner-section/Banner';
 import Projects from '../components/projects-section/Projects'
 import WhyMtl from '../components/why-mtl-section/WhyMtl';
 import Process from '../components/process-section/Process';
+import ClientTest from '../components/client-test-section/ClientTest';
+import Footer from '../components/footer-section/Footer';
 
 function HomePage() {
   return (
@@ -13,6 +15,8 @@ function HomePage() {
         <Projects />
         <WhyMtl />
         <Process />
+        <ClientTest />
+        <Footer />
       </div>
     </div>
   )

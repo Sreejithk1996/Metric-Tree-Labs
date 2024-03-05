@@ -1,13 +1,12 @@
 .process-content {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .pc-1 {
     display: flex;
     flex-direction: column;
-    width: 435px;
+    width: 535px;
     justify-content: center;
     gap: 30px;
 }
@@ -15,7 +14,7 @@
  .pc-1 .process-title {
     color: #FFF;
     font-family: "Roboto Slab";
-    font-size: 48px;
+    font-size: 68px;
     font-style: normal;
     font-weight: 300;
     line-height: 58px;
@@ -31,41 +30,112 @@
     font-family: "Raleway";
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 30px
 }
 
 .pc-1 button {
     color: #FFF;
     font-family: "Open Sans";
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     display: flex;
-    padding: 14px 30px;
+    padding: 14px 22px 14px 25px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 30px;
     border: 1px solid rgba(214, 214, 214, 0.33);
     background: linear-gradient(90deg, #0E5A65 -9.26%, rgba(32, 59, 109, 0.00) 106.72%);
+    transition: all 200ms linear;
+}
+
+
+.pc-1 button:hover {
+    gap: 20px;
+    cursor: pointer;
+    transition: all 200ms linear;
 }
 
 .pc-2 {
     display: flex;
-    
+    position: relative;
 }
 
 .pc-2 .mobile-process-list {
-    width: 355px;
-    height: 598px;
-    border-radius: 19px;
-    border: 1.4px solid rgba(255, 255, 255, 0.50);
-    background: linear-gradient(86deg, rgba(255, 255, 255, 0.20) 11.14%, rgba(255, 255, 255, 0.04) 113.29%);
-    box-shadow: 0px 0.6px 15px 0px rgba(69, 42, 124, 0.10);
+    width: 400px;
+    height: auto;
+    padding: 20px 0px;
+    border-radius: 30px;
+    border: 1.4px solid rgba(255, 255, 255, 0.485);
+    background: linear-gradient(86deg, rgba(79, 160, 200, 0.316) 11.14%, rgba(255, 255, 255, 0.188) 113.29%);
+    /* box-shadow: 0px 0.6px 15px 0px rgba(69, 42, 124, 0.10); */
+    /* box-shadow: 0px 10px 113.6px 0px rgba(115, 198, 210, 0.29); */
+    /* box-shadow: rgba(54, 130, 131, 0.2) 0px 60px 40px -7px; */
+    /* box-shadow: rgba(54, 130, 131, 0.2) 35px 25px 25px, rgba(54, 130, 131, 0.2) 0px 5px 10px; */
+    box-shadow: -39px 27px 96px 19px rgba(79, 160, 200, 0.316);
     backdrop-filter: blur(17px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    z-index: 2;
 }
 
-.pc-2 .mobile-list {
+.pc-2 > img {
+    width: 475px;
+    position: absolute;
+    top: 10%;
+    right: -65%;
+    z-index: 1;
+    animation: sphere-rotate 40s infinite linear;
+}
+
+.pc-2 .list-content {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pc-2 .list-content .list-1 {
+    width: 283px;
+    height: 30px;
+    padding: 15px;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 15.8px;
+    font-weight: 700;
+    border: 0.987px solid rgba(255, 255, 255, 0.50);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.66);
+    backdrop-filter: blur(18px);
+    display: flex;
+    gap: 20px;
+    align-items: center; 
+    transition: all 200ms linear;
+}
+
+.pc-2 .list-content .list-1:hover {
+    color: #FFF;
+    border-radius: 14.812px;
+    border: 0.987px solid rgba(255, 255, 255, 0.50);
+    background-image: linear-gradient(81deg, #038a9e 9.71%, #064a71 69.6%);
+    box-shadow: 0px 0.591px 10.77px 0px rgba(69, 42, 124, 0.10), -10px 5px 10.5px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(17.280948638916016px);
+    cursor: pointer;
+    transform: translateX(-100px) scale(1);
+    transition: all 200ms linear;
+}
+
+.pc-2 .bottom-bar img {
+    width: 250px;
+}
+
+@keyframes sphere-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
 }

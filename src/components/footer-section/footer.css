@@ -1,0 +1,104 @@
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: auto;
+}
+
+.footer-1 {
+    width: auto;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1.5px solid #73C6D2;
+    background: linear-gradient(93deg, rgba(255, 255, 255, 0.18) 2.79%, rgba(255, 255, 255, 0.18) 2.79%, rgba(255, 255, 255, 0.00) 96.26%);
+    backdrop-filter: blur(9px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-1 p {
+    color: #FFF;
+    font-family: "Roboto Slab";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.footer-1 button {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    padding: 14px 22px 14px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(214, 214, 214, 0.33);
+    background: linear-gradient(90deg, #0E5A65 -9.26%, rgba(32, 59, 109, 0.00) 106.72%);
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 480px;
+}
+
+.footer-2 .mtl-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-2 .mtl-social-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-2 .mtl-social-quote .quote {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.238px;
+}
+
+.footer-2 .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-2 > .mtl-contact, .mtl-uk-address, .mtl-india-address {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; 
+    letter-spacing: 0.272px;
+}
+
+.footer-2 .mtl-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.world-map {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 10%;
+}
+
+.world-map img {
+    width: 840px;
+    height: 350px;
+}
