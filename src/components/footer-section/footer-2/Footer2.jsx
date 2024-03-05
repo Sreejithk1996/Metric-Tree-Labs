@@ -41,14 +41,14 @@ function Footer2() {
             </div>
         </div>
         <div className='mtl-uk-address'>
-                <p>Metric Tree Labs Pvt.Ltd</p>
+                <p><label>Metric Tree Labs Pvt.Ltd</label></p>
                 <p>71-75 Shelton Street</p>
                 <p>Covent Garden</p>
                 <p>London, WC2H9JO</p>
                 <p>UNITED KINGDOM</p>
         </div>
         <div className='mtl-india-address'>
-                <p>Metric Tree Labs Pvt.Ltd</p>
+                <p><label>Metric Tree Labs Pvt.Ltd</label></p>
                 <p> 7 Providence,</p>
                 <p>Mahakavi Vailoppilli Rd,</p>
                 <p>Palarivattom,</p>

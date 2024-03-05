@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 100px;
+    position: relative;
     height: auto;
 }
 
@@ -45,7 +46,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
     height: 480px;
 }
 
@@ -91,14 +91,19 @@
     gap: 20px;
 }
 
+.footer-2 .mtl-contact > label {
+    font-weight: 700;
+}
+
 .world-map {
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    right: 10%;
+    right: 5%;
+    bottom: 10%;
 }
 
 .world-map img {
-    width: 840px;
+    width: 980px;
     height: 350px;
 }
