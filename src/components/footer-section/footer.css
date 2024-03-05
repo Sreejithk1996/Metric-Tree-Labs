@@ -47,6 +47,7 @@
     justify-content: space-around;
     align-items: center;
     height: 480px;
+    border-bottom: 1px solid #038a9e;
 }
 
 .footer-2 .mtl-social {
@@ -63,7 +64,7 @@
 .footer-2 .mtl-social-quote .quote {
     color: #FFF;
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -78,7 +79,7 @@
 .footer-2 > .mtl-contact, .mtl-uk-address, .mtl-india-address {
     color: #FFF;
     font-family: "Open Sans";
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%; 
@@ -100,10 +101,24 @@
     justify-content: flex-end;
     position: absolute;
     right: 5%;
-    bottom: 10%;
+    bottom: 20%;
 }
 
 .world-map img {
     width: 980px;
     height: 350px;
+}
+
+.copyright {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.copyright a {
+    text-decoration: none;
+    color:#FFF;
+    font-weight: 700;
 }

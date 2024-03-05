@@ -1,6 +1,15 @@
 .process-content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+}
+
+.process-svg img {
+    position: absolute;
+    left: -130px;
+    top: 18%;
 }
 
 .pc-1 {

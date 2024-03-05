@@ -3,11 +3,15 @@ import './process.css'
 import mobiletop from '../../assets/small_image/mob-bg-top.svg'
 import homebar from '../../assets/small_image/True.svg'
 import sphere from '../../assets/large_image/process-sphere.svg'
+import processsvg from '../../assets/large_image/our-process-bg.svg'
 
 function Process() {
   return (
    <section className='process-section'>
         <div className='process-content'>
+            <div className='process-svg'>
+                <img src={processsvg} alt="svg-icon" />
+            </div>
             <div className='pc-1'>
                 <div className='process-title'>
                     <p>Our</p><label>Process</label>

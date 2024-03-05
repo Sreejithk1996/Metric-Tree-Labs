@@ -5,10 +5,15 @@ import Footer2 from './footer-2/Footer2'
 
 function Footer() {
   return (
+    <>
     <section className='footer-section'>
         <Footer1 />
         <Footer2 />
     </section>
+    <div className='copyright'>
+    <p>© 2024 <a href="https://metrictreelabs.com/">Metric Tree Labs</a>, All Rights Reserved</p>
+  </div>
+  </>
   )
 }
 
