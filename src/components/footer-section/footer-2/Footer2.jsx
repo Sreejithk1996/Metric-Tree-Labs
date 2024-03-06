@@ -30,25 +30,25 @@ function Footer2() {
         </div>
         <div className='mtl-contact'>
             <div className='mtl-contact-1'>
-                <p>For Jobs and Internships</p>
+                <p><label>For Jobs and Internships</label></p>
                 <p>+91 6238903365</p>
                 <p>sales@metrictreelabs.com</p>
             </div>
             <div className='mtl-contact-2'>
-                <p>For Sales Enquiry</p>
+                <p><label>For Sales Enquiry</label></p>
                 <p>+91 6238903365</p>
                 <p>sales@metrictreelabs.com</p>
             </div>
         </div>
         <div className='mtl-uk-address'>
-                <p><label>Metric Tree Labs Pvt.Ltd</label></p>
+                <p>Metric Tree Labs Pvt.Ltd</p>
                 <p>71-75 Shelton Street</p>
                 <p>Covent Garden</p>
                 <p>London, WC2H9JO</p>
                 <p>UNITED KINGDOM</p>
         </div>
         <div className='mtl-india-address'>
-                <p><label>Metric Tree Labs Pvt.Ltd</label></p>
+                <p>Metric Tree Labs Pvt.Ltd</p>
                 <p> 7 Providence,</p>
                 <p>Mahakavi Vailoppilli Rd,</p>
                 <p>Palarivattom,</p>
