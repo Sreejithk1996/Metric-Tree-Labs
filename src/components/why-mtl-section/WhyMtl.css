@@ -91,7 +91,7 @@
     position: absolute;
     top: -30px;
     left: 60px;
-    animation: rotate-icon 10s linear infinite;
+    animation: rotate-icon 3s linear infinite;
 }
 
 @keyframes rotate-icon {
