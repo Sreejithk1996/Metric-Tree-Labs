@@ -34,7 +34,7 @@ body {
   justify-content: center;
   align-items: center;
 } */
-
+/* 
 .swiper {
   width: 400px;
   height: 540px;
@@ -42,7 +42,7 @@ body {
   justify-content: flex-start;
   margin-left: 0;
 
-}
+} */
 
 /* .swiper-slide {
   display: flex;
@@ -55,7 +55,7 @@ body {
 
 } */
 
-.slide-1 {
+/* .slide-1 {
     width: 400px;
     height: 540px;
     display: flex;
@@ -95,4 +95,4 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.05);
     background: rgba(255, 255, 255, 0.26);
     backdrop-filter: blur(11.699999809265137px);
-}
+} */

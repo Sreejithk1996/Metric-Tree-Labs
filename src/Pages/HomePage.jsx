@@ -15,7 +15,6 @@ function HomePage() {
         <Projects />
         <WhyMtl />
         <Process />
-        <ClientTest />
         <Footer />
       </div>
     </div>

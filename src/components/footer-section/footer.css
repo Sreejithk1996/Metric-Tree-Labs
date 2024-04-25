@@ -93,8 +93,6 @@
     gap: 20px;
 }
 
-
-
 .footer-2 .mtl-contact  label {
     font-weight: 700;
 }
@@ -125,3 +123,330 @@
     color:#FFF;
     font-weight: 700;
 }
+
+/* ---------------------------------------------------Media Query (min-width: 380px & max-width: 640px) ---------------------------------  */
+
+@media only screen and (min-width:380px) and (max-width:640px){
+    .footer-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .footer-1 {
+        padding: 20px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+    
+    .footer-1 p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .footer-1 button {
+        font-size: 16px;
+        padding: 10px 18px 10px 21px;
+    }
+    
+    .footer-2 {
+        flex-direction: column;
+        gap: 20px;
+        height: 550px;
+        border-bottom: none;
+    }
+    
+    
+    .footer-2 .mtl-social {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer-2 .mtl-social-quote {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-2 .mtl-social-quote .quote {
+        font-size: 14px;
+    }
+    
+    .footer-2 .social-icons {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer-2 > .mtl-contact, .mtl-uk-address, .mtl-india-address {
+        font-size: 14px;
+    }
+
+    .mtl-uk-address {
+        padding-right: 110px;
+    }
+    
+    .footer-2 .mtl-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-2 .mtl-contact  label {
+        font-weight: 700;
+    }
+    
+    .world-map {
+        right: 0%;
+        bottom: -10%;
+    }
+    
+    .world-map img {
+        width: 380px;
+        height: 350px;
+    }  
+}
+
+/* ---------------------------------------------------Media Query (min-width: 641px & max-width: 768px) --------------------------------- */
+
+@media only screen and (min-width:641px) and (max-width:768px){
+    .footer-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .footer-1 {
+        padding: 20px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+    
+    .footer-1 p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .footer-1 button {
+        font-size: 16px;
+        padding: 10px 18px 10px 21px;
+    }
+    
+    .footer-2 {
+        flex-direction: column;
+        gap: 20px;
+        height: 550px;
+        border-bottom: 1px solid #038a9e;
+    }
+    
+    
+    .footer-2 .mtl-social {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer-2 .mtl-social-quote {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-2 .mtl-social-quote .quote {
+        font-size: 14px;
+    }
+    
+    .footer-2 .social-icons {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer-2 > .mtl-contact, .mtl-uk-address, .mtl-india-address {
+        font-size: 14px;
+    }
+
+    .mtl-uk-address {
+        padding-right: 150px;
+    }
+
+    .mtl-india-address{
+        padding-left: 50px;
+    }
+    
+    .footer-2 .mtl-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-2 .mtl-contact  label {
+        font-weight: 700;
+    }
+    
+    .world-map {
+        right: 0%;
+        bottom: -10%;
+    }
+    
+    .world-map img {
+        width: 680px;
+        height: 350px;
+    } 
+}
+
+/* ---------------------------------------------------Media Query (min-width: 769px & max-width: 992px) --------------------------------- */
+
+@media only screen and (min-width:769px) and (max-width:992px){
+    .footer-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .footer-1 {
+        padding: 20px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+    
+    .footer-1 p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .footer-1 button {
+        font-size: 16px;
+        padding: 10px 18px 10px 21px;
+    }
+    
+    .footer-2 {
+        flex-direction: row;
+        gap: 20px;
+        height: 550px;
+        border-bottom: 1px solid #038a9e;
+    }
+    
+    
+    .footer-2 .mtl-social {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-2 .mtl-social-quote {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-2 .mtl-social-quote .quote {
+        font-size: 14px;
+    }
+    
+    .footer-2 .social-icons {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer-2 > .mtl-contact, .mtl-uk-address, .mtl-india-address {
+        font-size: 14px;
+    }
+
+    .footer-2 .mtl-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-2 .mtl-contact  label {
+        font-weight: 700;
+    }
+    
+    .world-map {
+        right: 0%;
+        bottom: -10%;
+    }
+    
+    .world-map img {
+        width: 700px;
+        height: 350px;
+    }  
+}
+
+/* ---------------------------------------------------Media Query (min-width: 993px & max-width: 1280px) --------------------------------- */
+
+@media only screen and (min-width:993px) and (max-width:1280px){
+    .footer-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .footer-1 {
+        padding: 20px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+    
+    .footer-1 p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .footer-1 button {
+        font-size: 16px;
+        padding: 10px 18px 10px 21px;
+    }
+    
+    .footer-2 {
+        flex-direction: row;
+        gap: 20px;
+        height: 550px;
+        border-bottom: 1px solid #038a9e;
+    }
+    
+    
+    .footer-2 .mtl-social {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-2 .mtl-social-quote {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-2 .mtl-social-quote .quote {
+        font-size: 14px;
+    }
+    
+    .footer-2 .social-icons {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer-2 > .mtl-contact, .mtl-uk-address, .mtl-india-address {
+        font-size: 14px;
+    }
+
+    .footer-2 .mtl-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-2 .mtl-contact  label {
+        font-weight: 700;
+    }
+    
+    .world-map {
+        right: 0%;
+        bottom: -10%;
+    }
+    
+    .world-map img {
+        width: 700px;
+        height: 350px;
+    }  
+}
+

@@ -13,12 +13,12 @@
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 50px;
 }
 
 @media only screen and (min-width:380px) and (max-width:640px) {
     .main-sub-body {
         margin: auto;
-        padding: 20px 35px;
+        padding: 20px 22px;
     }
 }
